@@ -13,7 +13,7 @@ export const Nav = () => {
         <p>FEATURES</p>
         <p>PRICING</p>
         <p>CONTACT</p>
-        <p>LOGIN</p>
+        <p style={{backgroundColor:'hsl(0, 94%, 66%)', borderRadius:'10px', width:'100%'}}>LOGIN</p>
      </nav>
     </div>
   )
