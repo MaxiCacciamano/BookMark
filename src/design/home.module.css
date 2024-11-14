@@ -1,0 +1,15 @@
+.menu{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+}
+.submenu{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.submenu p{
+    padding: 10px;
+}
