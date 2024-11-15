@@ -1,6 +1,6 @@
 import React from 'react'
 import style from  '../design/home.module.css'
-import logo from '../../public/images/logo-bookmark.svg';
+import logo from '../assets/image/logo-bookmark.svg';
 
 
 export const Nav = () => {
@@ -13,7 +13,7 @@ export const Nav = () => {
         <p>FEATURES</p>
         <p>PRICING</p>
         <p>CONTACT</p>
-        <p style={{backgroundColor:'hsl(0, 94%, 66%)', borderRadius:'10px', width:'100%'}}>LOGIN</p>
+        <p style={{backgroundColor:'hsl(0, 94%, 66%)', borderRadius:'5px', width:'100%', color:'white'}}>LOGIN</p>
      </nav>
     </div>
   )
