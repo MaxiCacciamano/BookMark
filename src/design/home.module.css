@@ -1,81 +1,93 @@
-.menu{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    align-content: center;
-    margin: 0 auto;
-    width: 90%;
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  width: 90%;
 }
-.submenu{
-    display: flex;
-    gap: 50px;
-    /* width: 35%; */
-    /* padding: 50px; */
-    /* flex-direction: row; */
-}
-
-.submenu p{
-    font-size: 15px;
-    width: 11%;
-    padding: 5px;
-    font-weight: 500;
+.submenu {
+  display: flex;
+  gap: 50px;
+  /* width: 35%; */
+  /* padding: 50px; */
+  /* flex-direction: row; */
 }
 
-.manager{
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    align-items: center;
-    align-content: center;
-    margin-top: 80px;
-}
-.buttons button{
-    margin-right:15px;
-    padding: 15px;
-    background-color:  hsl(231, 69%, 60%);
-}
-.image img{
-    width: 100%;
+.submenu p {
+  font-size: 15px;
+  width: 11%;
+  padding: 5px;
+  font-weight: 500;
 }
 
-.background{
-    width: 565px;
-    height: 350px;
-    background-color:hsl(231, 69%, 60%);
-    position: absolute;
-    right: 0px;
-    bottom: 80px;
-    border-radius: 180px 0px 0px 180px;
-    z-index: -1;
+.manager {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+  margin-top: 80px;
+}
+.buttons button {
+  margin-right: 15px;
+  padding: 15px;
+  background-color: hsl(231, 69%, 60%);
+}
+.image img {
+  width: 100%;
 }
 
-.site{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 40px;
-
+.background {
+  width: 565px;
+  height: 350px;
+  background-color: hsl(231, 69%, 60%);
+  position: absolute;
+  right: 0px;
+  bottom: 80px;
+  border-radius: 180px 0px 0px 180px;
+  z-index: -1;
 }
 
-.site button{
-    /* margin: 50px; */
+.site {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
 }
 
-.browser{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* margin: 0px; */
-    background-color: white;
-    width: 200px;
-    border-radius: 10px;
-    padding: 10px;
+.site button {
+  /* margin: 50px; */
 }
 
-.browser p{
-    line-height: 0px;
+.browser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 0px; */
+  background-color: white;
+  width: 200px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-.browser button{
-    background-color: hsl(231, 69%, 60%);
+.browser p {
+  line-height: 0px;
+}
+
+.browser button {
+  background-color: hsl(231, 69%, 60%);
+}
+
+.arrow {
+  justify-content: space-between;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-top: 1px solid hsl(231, 8%, 82%);
+  margin-top: 0.1px;
+}
+
+.arrow button {
+  background-color: rgb(233, 231, 231);
 }

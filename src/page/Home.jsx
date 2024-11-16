@@ -3,6 +3,7 @@ import React from 'react'
 import About  from '../components/About.jsx'
 import { Feature } from '../components/Feature.jsx'
 import { Extension } from '../components/Extension.jsx'
+import { Asked } from '../components/Asked.jsx'
 
 export const Home = () => {
   return (
@@ -10,6 +11,7 @@ export const Home = () => {
        <About />
        <Feature/>
        <Extension/>
+       <Asked/>
     </div>
   )
 }
