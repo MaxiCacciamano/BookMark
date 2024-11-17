@@ -19,7 +19,7 @@ export const Desplegar = ({ title, content }) => {
             justifyContent: "space-between",
           }}
         >
-          <p>{title}</p>
+          <p style={{ fontWeight: "500" }}>{title}</p>
           <button onClick={togleSection} className={style.styleArrow}>
             {isOpen ? <img src={arrow} /> : <img src={arrow} />}
           </button>

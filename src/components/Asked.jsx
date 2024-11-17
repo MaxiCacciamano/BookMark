@@ -1,9 +1,10 @@
 import React from "react";
 import { Desplegar } from "./Desplegar";
+import style from "../design/home.module.css";
 
 export const Asked = () => {
   return (
-    <div>
+    <div className={style.asked} style={{ marginBottom: "100px" }}>
       <h2 style={{ fontWeight: "500" }}>Frequently Asked Questions</h2>
       <p style={{ color: "hsl(229, 8%, 60%)", width: "35%", margin: "0 auto" }}>
         Here are some of our FAQs. If you have any other questions you'd like
@@ -27,6 +28,7 @@ export const Asked = () => {
           content="Este es el contenido desplegado para la primera pregunta."
         />
       </div>
+      <button className={style.moreInfo}>More info</button>
     </div>
   );
 };
