@@ -123,12 +123,12 @@ export const Options = () => {
             style={{
               display: "flex",
               flexDirection: "row",
-              margin: "60px auto",
+              margin: "30px auto",
             }}
           >
             <div
               style={{
-                // width: "50%",
+                width: "50%",
                 display: "flex",
                 alignItems: "center",
                 alignContent: "center",
@@ -145,11 +145,9 @@ export const Options = () => {
             <div
               style={{
                 width: "50%",
-                margin: "30px",
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
-                marginLeft: "80px",
               }}
             >
               <h2 style={{ textAlign: "left" }}>Bookmark in one click</h2>
@@ -182,11 +180,12 @@ export const Options = () => {
               display: "flex",
               flexDirection: "row",
               margin: "60px auto",
+              marginLeft:'40px'
             }}
           >
             <div
               style={{
-                // width: "50%",
+                width: "50%",
                 display: "flex",
                 alignItems: "center",
                 alignContent: "center",
@@ -203,11 +202,9 @@ export const Options = () => {
             <div
               style={{
                 width: "50%",
-                margin: "30px",
                 display: "flex",
                 flexDirection: "column",
-                justifyContent: "center",
-                marginLeft: "80px",
+                // justifyContent: "center",
               }}
             >
               <h2 style={{ textAlign: "left" }}>Bookmark in one click</h2>
