@@ -1,6 +1,7 @@
 import React from "react";
 import { Desplegar } from "./Desplegar";
 import style from "../design/home.module.css";
+import { More } from "../assets/More";
 
 export const Asked = () => {
   return (
@@ -28,7 +29,7 @@ export const Asked = () => {
           content="Este es el contenido desplegado para la primera pregunta."
         />
       </div>
-      <button className={style.moreInfo}>More info</button>
+      <More title="More info" />
     </div>
   );
 };

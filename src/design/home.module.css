@@ -53,6 +53,27 @@
   z-index: -1;
 }
 
+.background2 {
+  width: 650px;
+  height: 350px;
+  background-color: hsl(231, 69%, 60%);
+  position: absolute;
+  left: 0px;
+  top: 1080px;
+  /* transform: translateX(50px); */
+  border-radius: 0px 180px 180px 0px;
+  z-index: -1;
+}
+
+.tab button {
+  height: 10%;
+}
+
+.avtivee.clicked {
+  background-color: yellow;
+  color: orange;
+}
+
 .site {
   display: flex;
   justify-content: center;
@@ -97,7 +118,7 @@
 }
 
 .moreInfo {
-  margin: 40px;
+  /* margin: 40px; */
   background-color: hsl(231, 69%, 60%);
 }
 
